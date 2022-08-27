@@ -1,12 +1,10 @@
+import "./App.scss";
+import logo from "./images/tasoLogo.png";
 
-import './App.css';
-
-const App = () =>{
-  
-  return(
-    <h1 className='test-world'>HelloWorld!</h1>
+const App = () => {
+  return (
+    
   );
 };
-
 
 export default App;
