@@ -1,12 +1,13 @@
 import "./App.scss";
 import Taso from "./component/header.js";
+import MidComp from "./component/mid-comp"
 
 const App = () => {
   return (
     <div>
       <Taso />
       <hr></hr>
-      <div className="container-mid"></div>
+      <MidComp />
     </div>
   );
 };
