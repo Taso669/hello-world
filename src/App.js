@@ -1,10 +1,10 @@
 import "./App.scss";
-import logo from "./images/tasoLogo.png";
+import Taso from './component/header.js';
 
 const App = () => {
-  return (
-    
-  );
+  return(
+    <Taso />
+  )
 };
 
 export default App;
