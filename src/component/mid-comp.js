@@ -1,4 +1,5 @@
 import Section from './section'
+import "../component.styles/midClass.style.scss"
 
 
 const midComp = () =>{
