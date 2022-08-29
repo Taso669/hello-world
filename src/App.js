@@ -1,10 +1,14 @@
 import "./App.scss";
-import Taso from './component/header.js';
+import Taso from "./component/header.js";
 
 const App = () => {
-  return(
-    <Taso />
-  )
+  return (
+    <div>
+      <Taso />
+      <hr></hr>
+      <div className="container-mid"></div>
+    </div>
+  );
 };
 
 export default App;
