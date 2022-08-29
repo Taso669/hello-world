@@ -1,0 +1,45 @@
+.container-bottom{
+    padding-top: 5%;
+    background-color: #DBE2EF;
+    text-align: center;
+    position: relative;
+
+
+    .title{
+        font-family: 'Quicksand', 'Sans-Serif';
+        color: #3F72AF;
+        font-size: 50px;
+    }
+
+    .contacts1{
+        float: left;
+        width: 100%;
+        margin: 1%;
+    }
+    .contact{
+        background-color: #3F72AF;
+        border: 5px solid #112D4E;
+        font-family: 'Ubuntu', 'Sans-Serif';
+        color:#DBE2EF;
+        left: 0;
+        width: 30%;
+        padding-top: 1%;
+        float: left;
+        margin: 0 1%;
+        margin-bottom: 2%;
+        
+    
+        .way-of-contact{
+            padding-bottom: 7%;
+        }
+
+        .how-to-contact{
+            padding-bottom: 3%;
+        }
+    }
+
+    .footer{
+        clear: left;
+        padding-bottom: 1%;
+    }
+}

@@ -1,6 +1,7 @@
 import "./App.scss";
 import Taso from "./component/header.js";
-import MidComp from "./component/mid-comp"
+import MidComp from "./component/mid-comp";
+import BotComp from "./component/bottom-comp"
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
       <Taso />
       <hr></hr>
       <MidComp />
+      <hr></hr>
+      <BotComp />
     </div>
   );
 };

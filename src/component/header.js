@@ -8,7 +8,7 @@ const header = (props) =>{
           <h1 className="taso-name">Taso</h1>
           <h1 className="taso-job">Your website designer</h1>
         </div>
-        <a href="#" className="btn btn-taso">
+        <a href="#contacts" className="btn btn-taso">
           Contact me {props.name}
         </a>
       </div>
